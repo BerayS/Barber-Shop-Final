@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.main-container {
+    /* background:red; */
+    width:1315px;
+    margin:0 auto;
+    margin-top:60px;    
+}
+
+
+p {
+    font-family:'Grenze Gotisch';
+    text-align:Center;
+    font-size:42px;
+    margin-bottom:60px;
+    margin-top:20px;
+}
+
+img {
+    margin-left:200px;
+}
+
+@media (max-width:680px) {
+    img {
+        width:100%;
+        margin:0 !important;;
+    }
+
+    p {
+        font-family:'Grenze Gotisch';
+        text-align:Center;
+        font-size:42px;
+        margin-bottom:60px;
+        margin-top:20px;
+    }
+}
